@@ -60,6 +60,8 @@ section {
 #subcontainer-2 {
   position: relative;
   perspective: 1000px;
+  margin-left: 1px;
+  margin-right: 1px;
   height: 100%;
   width: 50px;
   overflow: hidden;
