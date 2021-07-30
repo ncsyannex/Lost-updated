@@ -378,6 +378,13 @@ a:visited {
   #prism-container {
     font-size: 30px;
   }
+
+  .prism-slider .side,
+  #subcontainer-2 .prism-slider .side,
+  #subcontainer-3 .prism-slider .side {
+    backface-visibility: hidden;
+  }
+
   #subcontainer-2 {
     width: 30px;
   }
