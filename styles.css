@@ -331,7 +331,8 @@ a:visited {
 /* css for social media */
 
 .social-background {
-  background-color: rgb(0, 0, 0);
+  background-color: inherit(0, 0, 0, 0.144);
+  box-shadow: 0 0 3px #000000 inset;
   position: absolute;
   max-height: 2em;
   bottom: 0px;
@@ -339,7 +340,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  /* color: white; */
 }
 
 /* margin : top - right - bottom - left */
@@ -352,7 +353,7 @@ a:visited {
 .fas,
 .fab {
   font-size: 25px;
-  color: white;
+  color: grey;
 }
 
 .fab:hover,
@@ -377,6 +378,9 @@ a:visited {
 @media all and (max-width: 415px) {
   #prism-container {
     font-size: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   .prism-slider .side,
