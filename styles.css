@@ -321,6 +321,10 @@ h4 {
   width: 100%;
 }
 
+.info-titles h4 {
+  font-weight: normal;
+}
+
 a,
 a:visited {
   color: black;
@@ -378,20 +382,25 @@ a:visited {
 @media all and (max-width: 415px) {
   #prism-container {
     font-size: 30px;
+    height: 200px;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+  }
+
+  #subcontainer-2,
+  #subcontainer-3,
+  #subcontainer-1 {
+    height: 55px;
   }
 
   .prism-slider .side,
   #subcontainer-2 .prism-slider .side,
   #subcontainer-3 .prism-slider .side {
     backface-visibility: hidden;
+    text-align: center;
   }
 
-  #subcontainer-2 {
-    width: 30px;
-  }
   .social-background ul {
     padding-left: 15px;
   }
